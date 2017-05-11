@@ -9,6 +9,9 @@ Elasticsearch Tutorial
 * [Elasticsearch tutorial](http://logz.io/blog/elasticsearch-tutorial/)
 * [Elasticsearch Query Tutorial](http://okfnlabs.org/blog/2013/07/01/elasticsearch-query-tutorial.html)
 * [Getting started with Elastcisearch](https://www.codementor.io/javascript/tutorial/getting-started-with-elasticsearch)
+* [Javascript for ElasticSearch](https://www.elastic.co/guide/en/elasticsearch/client/javascript-api/current/about.html)
+* [Build a Search Engine with Node.js and Elasticsearch](https://www.sitepoint.com/search-engine-node-elasticsearch/)
+* [Getting started with Elasticsearch and Node.js](https://www.compose.com/articles/getting-started-with-elasticsearch-and-node/)
 
 ## Install
 
@@ -23,7 +26,7 @@ Elasticsearch Tutorial
 | Row                       | Document                  |
 
 
-## Usages
+## Basic Usages
 ```
 REST API Format : http://host:port/[index]/[type]/[_action/id]
 
