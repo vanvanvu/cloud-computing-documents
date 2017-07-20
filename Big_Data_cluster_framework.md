@@ -12,6 +12,8 @@ Big Data cluster framework
 * [Hadoop Big Data Analytics](http://www.cisco.com/c/en/us/solutions/collateral/enterprise/cisco-on-cisco/BigData_Case_Study-1.html)
 * [Big Data Processing with Apache Spark](https://www.infoq.com/articles/apache-spark-introduction)
 * [Spark – A modern data processing framework for cross platform analytics](http://h20195.www2.hpe.com/V2/getpdf.aspx/4AA6-8143ENW.pdf)
+* [The Big-Data Ecosystem Table](http://bigdata.andreamostosi.name/)
+* [An Introduction to Big Data Concepts and Terminology](https://www.digitalocean.com/community/tutorials/an-introduction-to-big-data-concepts-and-terminology)
 
 ## Images
 ![Sample_system_deployment](images/Sample_system_deployment.png)
@@ -161,8 +163,13 @@ Spark-master: localhost:8080
 * [Introduction to Apache Spark with Examples and Use Cases](https://www.toptal.com/spark/introduction-to-apache-spark)
 * [PySpark Tutorials](https://www.dezyre.com/apache-spark-tutorial/pyspark-tutorial)
 * [PySpark Programming Guide](https://spark.apache.org/docs/0.9.1/python-programming-guide.html)
+* [Apache-spark-installation-tutorial](https://www.dezyre.com/apache-spark-tutorial/apache-spark-installation-tutorial)
 
 #### PySpark Shell
+> ./bin/pyspark 
+
+> JAVA_HOME=<Location-of-java-lib> && ./bin/pyspark
+
 ```
 # Accessing Hadoop HDFS
 text_file = sc.textFile("hdfs://localhost:9000/user/vanvv/input/fulldictionary.txt")
