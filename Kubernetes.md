@@ -212,6 +212,8 @@ metadata:
 [Pick-right-solution](https://kubernetes.io/docs/setup/pick-right-solution/)
 [Platform9](https://platform9.com/docs/install-kubernetes-the-ultimate-guide/)
 
+![Kubernetes Deployment Models Compared - 2017](images/kubernetes/guide-k8s-compare-chart.png)
+
 * __Minikube__ (Just for developing in local server)
 * __Manual__ Creating a Custom Cluster from Scratch (Use the basic Kunernetes binaries)
 * __Kubeadm__
@@ -219,10 +221,11 @@ metadata:
 * __KubeNow__
 KubeNow provide an all-in-one tool for provisioning a Kubernetes cluster (e.g. Juju and Kubespray), KubeNow comes as a thin layer on top of Terraform, Packer, Ansible and kubeadm. Following this approach we aim to provide a simple, light-weight, tool for Kubernetes provisioning, while making DevOps transparent and fun.
 * __Hosted solution__: `gcloud` (Google Cloud), `kops` (AWS), `bx` (Bluemix), `az` (Azure)
-* __kubespray__ 
+* __kubespray (Kargo)__ 
 Kubespray is a composition of Ansible playbooks, inventory generation CLI tools and domain knowledge for generic OS/Kubernetes clusters configuration management tasks.
 
-* Juju
+* __Juju__ 
+* __CoreOs Tech__
 
 ### Setting up with Kubeadm
 [Creating-a-kubernetes-cluster-from-scratch-with-kubeadm](https://zihao.me/post/creating-a-kubernetes-cluster-from-scratch-with-kubeadm/)
@@ -230,13 +233,27 @@ Kubespray is a composition of Ansible playbooks, inventory generation CLI tools 
 
 ### Setting up with KubeNow
 [KubeNow](https://pharmb.io/tool/kubenow/)
-[KubeNow](https://github.com/kubenow/KubeNow#readme)
+[KubeNow - Github](https://github.com/kubenow/KubeNow)
 
-### Setting up with Kubespray
+![Architecture KubeNow](images/kubernetes/architecture_kubenow.png)
+
+Deploying a KubeNow cluster you will get:
+* A Kubernetes cluster up and running in ~10 minutes (provisioned with `kubeadm`)
+* `Weave` networking
+* `Traefik` HTTP reverse proxy and load balancer
+* `Cloudflare` dynamic DNS configuration (Optional)
+* `GlusterFS` distributed file system
+
+### Setting up with Kubespray (Kargo)
+[Main page](https://kubespray.io/)
+[Installing Cluster with Kubespray](http://slides.com/smainekahlouch/deck-1#/)
+[Kargo](http://www.yet.org/2016/07/kargo/)
 [Kubespray](https://github.com/kubespray/kubespray-cli)
+[Kubespray Demo](https://asciinema.org/a/065mhh5pzmxcwxgp6evebarvd?speed=4)
 
 ### Setting up with Juju
 [Setting up Kubernetes with Juju](https://kubernetes.io/docs/getting-started-guides/ubuntu/installation/)
+[Canonical-kubernetes](https://jujucharms.com/canonical-kubernetes/)
 
 ## Kubernetes Add-on Tools
 
