@@ -255,6 +255,9 @@ Deploying a KubeNow cluster you will get:
 [Setting up Kubernetes with Juju](https://kubernetes.io/docs/getting-started-guides/ubuntu/installation/)
 [Canonical-kubernetes](https://jujucharms.com/canonical-kubernetes/)
 
+### Setting up with CoreOs Tech
+[The Commercial Kubernetes Platform](https://coreos.com/blog/announcing-tectonic.html)
+
 ## Kubernetes Add-on Tools
 
 ### Manage Kubernetes
