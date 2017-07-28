@@ -250,10 +250,15 @@ Deploying a KubeNow cluster you will get:
 [Kargo](http://www.yet.org/2016/07/kargo/)
 [Kubespray](https://github.com/kubespray/kubespray-cli)
 [Kubespray Demo](https://asciinema.org/a/065mhh5pzmxcwxgp6evebarvd?speed=4)
+[Deploy a Kubernetes Cluster with Kargo ](https://www.youtube.com/watch?v=N9q51JgbWu8)
 
 ### Setting up with Juju
 [Setting up Kubernetes with Juju](https://kubernetes.io/docs/getting-started-guides/ubuntu/installation/)
 [Canonical-kubernetes](https://jujucharms.com/canonical-kubernetes/)
+
+### Setting up with Google Cloud Platform
+[Quick Start](https://cloud.google.com/container-engine/docs/<quickstart id="hello_node_code_review"></quickstart>)
+
 
 ## Kubernetes Add-on Tools
 
