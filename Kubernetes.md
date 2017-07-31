@@ -259,6 +259,13 @@ Deploying a KubeNow cluster you will get:
 ### Setting up with Google Cloud Platform
 [Quick Start](https://cloud.google.com/container-engine/docs/<quickstart id="hello_node_code_review"></quickstart>)
 
+### Setting up with CoreOs Tech
+[The Commercial Kubernetes Platform](https://coreos.com/blog/announcing-tectonic.html)
+
+### Setting up with Kops (only use for AWS)
+[Booting Kubernetes on Amazon Elastic Compute with kops](https://deis.com/docs/workflow/quickstart/provider/aws/boot/)
+[Kubernetes on AWS with kops](https://brosinski.com/post/kubernetes-on-aws-with-kops/)
+[github](https://github.com/kubernetes/kops/blob/master/docs/aws.md)
 
 ## Kubernetes Add-on Tools
 
