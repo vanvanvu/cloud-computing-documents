@@ -263,6 +263,8 @@ Deploying a KubeNow cluster you will get:
 [The Commercial Kubernetes Platform](https://coreos.com/blog/announcing-tectonic.html)
 
 ### Setting up with Kops (only use for AWS)
+[Kubernetes-clusters-aws-kops](https://aws.amazon.com/blogs/compute/kubernetes-clusters-aws-kops/)
+[Kubernetes on AWS](https://daemonza.github.io/2017/01/15/kubernetes-on-aws/)
 [Booting Kubernetes on Amazon Elastic Compute with kops](https://deis.com/docs/workflow/quickstart/provider/aws/boot/)
 [Kubernetes on AWS with kops](https://brosinski.com/post/kubernetes-on-aws-with-kops/)
 [github](https://github.com/kubernetes/kops/blob/master/docs/aws.md)
