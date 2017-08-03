@@ -258,6 +258,7 @@ Deploying a KubeNow cluster you will get:
 
 ### Setting up with Google Cloud Platform
 [Quick Start](https://cloud.google.com/container-engine/docs/<quickstart id="hello_node_code_review"></quickstart>)
+[Deploying with Docker and Kubernetes - tutorial from your PC to AWS EC2, Google cloud, Microsoft Azure or any private servers](http://christopher5106.github.io/continous/deployment/2016/05/02/deploy-instantly-from-your-host-to-AWS-EC2-and-Google-Cloud-with-kubernetes.html)
 
 ### Setting up with CoreOs Tech
 [The Commercial Kubernetes Platform](https://coreos.com/blog/announcing-tectonic.html)
