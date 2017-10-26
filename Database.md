@@ -248,3 +248,12 @@ Implementing queries that join data that is now in multiple databases is challen
 #### Command Query Responsibility Segregation (CQRS) pattern
 
 ### Managing multiple NoSQL databases
+
+## Caching technique
+
+### Good reads
+[Redis-node-js-introduction-to-caching](https://community.risingstack.com/redis-node-js-introduction-to-caching/)
+[Make-your-node-server-faster-with-redis-cache](http://www.sohamkamani.com/blog/2016/10/14/make-your-node-server-faster-with-redis-cache/)
+[Source Cache Manager](https://github.com/BryanDonovan/node-cache-manager)
+[Caching-in-nodejs-using-redis](http://www.tothenew.com/blog/caching-in-nodejs-using-redis/)
+[Caching-a-mongodb-database-with-redis](https://www.sitepoint.com/caching-a-mongodb-database-with-redis/)

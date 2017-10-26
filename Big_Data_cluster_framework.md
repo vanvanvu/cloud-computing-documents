@@ -164,6 +164,7 @@ Spark-master: localhost:8080
 * [PySpark Tutorials](https://www.dezyre.com/apache-spark-tutorial/pyspark-tutorial)
 * [PySpark Programming Guide](https://spark.apache.org/docs/0.9.1/python-programming-guide.html)
 * [Apache-spark-installation-tutorial](https://www.dezyre.com/apache-spark-tutorial/apache-spark-installation-tutorial)
+* [Start-spark](https://github.com/bbouille/start-spark)
 
 #### PySpark Shell
 > ./bin/pyspark 
@@ -192,6 +193,12 @@ sampleapp.py
 ```
 spark-submit sampleapp.py
 ```
+
+#### MongoDB Spark Connector
+[Starter](https://docs.mongodb.com/spark-connector/v1.1/getting-started/)
+[Spark Connector Python Guide](https://docs.mongodb.com/spark-connector/master/python-api/)
+[Github_mongo-spark](https://github.com/mongodb/mongo-spark)
+
 
 #### Launching Spark Application on a Cluster
 

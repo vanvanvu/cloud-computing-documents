@@ -53,6 +53,9 @@ Kubernetes
 
 ## Kubernetes Workflow
 
+## Kubectl CLIENT
+[kubernetes-client](https://www.mankier.com/package/kubernetes-client)
+[Copy directories and files to and from Kubernetes Container](https://medium.com/@nnilesh7756/copy-directories-and-files-to-and-from-kubernetes-container-pod-19612fa74660)
 
 ## The structer of Kubernetes Object File (YAML or JSON)
 Required Fields
@@ -64,6 +67,8 @@ In the .yaml file for the Kubernetes object you want to create, you’ll need to
 
 * metadata - Data that helps uniquely identify the object, including a name string, UID, and optional namespace
 * spec - 
+
+[Syntax Reference](https://www.mirantis.com/blog/introduction-to-yaml-creating-a-kubernetes-deployment/)
 
 ### Template
 
@@ -224,7 +229,10 @@ KubeNow provide an all-in-one tool for provisioning a Kubernetes cluster (e.g. J
 * __kubespray (Kargo)__ 
 Kubespray is a composition of Ansible playbooks, inventory generation CLI tools and domain knowledge for generic OS/Kubernetes clusters configuration management tasks.
 
-* __Juju__ 
+* __Kubernetes on Ubuntu__:There are two tools `conjure-up` or `juju` 
+The Canonical Distribution of Kubernetes Supports AWS, GCE, Azure, Joyent, OpenStack, VMWare, Bare Metal and localhost deployments.
+
+
 * __CoreOs Tech__
 
 ### Setting up with Kubeadm
@@ -252,9 +260,20 @@ Deploying a KubeNow cluster you will get:
 [Kubespray Demo](https://asciinema.org/a/065mhh5pzmxcwxgp6evebarvd?speed=4)
 [Deploy a Kubernetes Cluster with Kargo ](https://www.youtube.com/watch?v=N9q51JgbWu8)
 
-### Setting up with Juju
+### Canonical Distribution of Kubernetes
+[Common reference](https://jujucharms.com/canonical-kubernetes/)
+* Note: 
+> If you're deploying on lxd, use `conjure-up` instead `juju`
+> Juju is useful for lab environments, but for real-world use you should provide more CPU and memory to kubernetes-worker units.
+
+* __Kubernetes Core Bundle__: 
+[Local Kubernetes development with conjure](https://kubernetes.io/docs/getting-started-guides/ubuntu/local/)
+[kubernetes-core](https://jujucharms.com/kubernetes-core/)
+
+* __Canonical Kubernetes__: 
+[Getting-started-Juju](https://jujucharms.com/docs/stable/getting-started)
 [Setting up Kubernetes with Juju](https://kubernetes.io/docs/getting-started-guides/ubuntu/installation/)
-[Canonical-kubernetes](https://jujucharms.com/canonical-kubernetes/)
+
 
 ### Setting up with Google Cloud Platform
 [Quick Start](https://cloud.google.com/container-engine/docs/<quickstart id="hello_node_code_review"></quickstart>)
@@ -269,6 +288,10 @@ Deploying a KubeNow cluster you will get:
 [Kubernetes on AWS with kops](https://brosinski.com/post/kubernetes-on-aws-with-kops/)
 [github](https://github.com/kubernetes/kops/blob/master/docs/aws.md)
 
+#### Guideline 
+* Prepare `kubectl` tool
+* Prepare `aws-cli` 
+* prepare `kops`
 ## Kubernetes Add-on Tools
 
 ### Manage Kubernetes
