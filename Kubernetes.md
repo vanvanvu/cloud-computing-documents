@@ -219,6 +219,7 @@ metadata:
 
 ![Kubernetes Deployment Models Compared - 2017](images/kubernetes/guide-k8s-compare-chart.png)
 
+* __Manual__ (Use Hyperkube to create cluster with local server)
 * __Minikube__ (Just for developing in local server)
 * __Manual__ Creating a Custom Cluster from Scratch (Use the basic Kunernetes binaries)
 * __Kubeadm__
@@ -234,6 +235,10 @@ The Canonical Distribution of Kubernetes Supports AWS, GCE, Azure, Joyent, OpenS
 
 
 * __CoreOs Tech__
+
+### Setting up with Hyperkube
+[Setup-local-cluster](https://github.com/jetstack/getting-started-kubernetes/blob/master/labs/setup-local-cluster.md)
+[k8s-getting-started](https://blog.jetstack.io/blog/k8s-getting-started-part2/)
 
 ### Setting up with Kubeadm
 [Creating-a-kubernetes-cluster-from-scratch-with-kubeadm](https://zihao.me/post/creating-a-kubernetes-cluster-from-scratch-with-kubeadm/)
