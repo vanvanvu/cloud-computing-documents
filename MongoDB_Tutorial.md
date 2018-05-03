@@ -23,3 +23,13 @@ MongoDB Tutorial
 * Shards
 * Config serves
 * Router (mongos)
+
+### Useful commands
+
+* Remove inaccessible Mongo shard
+```
+use config
+db.shards.remove({"_id":"shard0002"});
+```
+
+* 
