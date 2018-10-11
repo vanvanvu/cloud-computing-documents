@@ -211,7 +211,6 @@ Advantages:
 
 #### Sharding Nothing
 
-
 #### Sharding Disk
 
 ## NoSQL resiliency design pattern
@@ -229,7 +228,9 @@ __To summarize the process I use for selecting a database:__
 * Consider the use of multiple databases to manage data under different contexts/usage patterns.
 * Always use a master database to store and retrieve canonical data, with one or more additional databases to support additional features such as searching, data pipeline processing, and caching.
 
-## Database for Big data
+## Distributed Database Patterns
+
+* Good choices: __Cassandra__, __HBase__, __Couchbase__
 
 ## Database in Microservice
 
