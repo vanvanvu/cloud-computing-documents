@@ -298,6 +298,26 @@ Deploying a KubeNow cluster you will get:
 * Prepare `kubectl` tool
 * Prepare `aws-cli` 
 * prepare `kops`
+
+## Kubernetes Management
+
+### Monitoring and logging
+![The monitoring and logging system we built around our application on top of Kubernetes](images/kubenetes_monitoring_logging.png)
+
+#### Logging events
+
+![Collecting logs with a logging agent per node model](images/kubenetes_logging_events.png)
+
+In general, there are two main components in a logging system: the logging agent and the logging backend. 
+
+Typically, there are three ways to send out logs to a program:
+* Dumping everything to stdout/stderr
+* Writing log files
+* Sending logs to a logging agent or logging the backend directly; programs in Kubernetes are also able to emit logs in the same manner so long as we understand how log streams flow in Kubernetes
+
+### Continuous Deployment
+
+
 ## Kubernetes Add-on Tools
 
 ### Manage Kubernetes
@@ -332,6 +352,7 @@ Deploying a KubeNow cluster you will get:
 [OpenTracing](http://opentracing.io/documentation/)
 #### Zipkin
  
+
 
 
 
